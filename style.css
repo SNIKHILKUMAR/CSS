@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(43, 73, 86);
+    font-family: "Oswald", sans-serif;
+}
+nav{
+    display: flex;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+    
+}
+nav ul{
+    height: 58px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+   
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+nav ul li{
+    padding: 0 23px;
+    list-style:none;
+}
+.search{
+   display: flex;
+   align-items: center;
+
+}
+.search input{
+    height:28px;
+    width:466px;
+    border-radius:3px;
+    margin:0 16px 0 56px;
+    padding: 0 18px;
+}
+.btn{
+    padding: 5px 13px;
+  border: 2px solid white;
+
+  border-radius: 7px;
+  cursor: pointer;
+}
+.container{
+    min-height: calc(100vh - 58px - 10vh );
+}
+.slider img{
+    height: 455px;
+    width: 1745px;
+    padding: 5px 5px
+}
+.card-item img{
+    width: 199px;
+    padding: 0 83px;
+}
+.card{
+    overflow:  scroll;
+}
+.card h2{
+    font-family: "Oswald", sans-serif;
+}
+.card-item{
+    width: 348px;
+    margin: 0 -30px;
+}
+.side{
+    display: flex;
+    align-items: center;
+
+}
+footer{
+    height: 10vh;
+    background-color: rgb(43, 76, 93);
+    color: white;
+      font-family: "Oswald", sans-serif;
+}
