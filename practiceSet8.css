@@ -1,0 +1,51 @@
+*{
+    margin:0;
+}
+nav{
+    padding:10px;
+}
+
+nav a{
+    text-decoration: none;
+    margin:35px;
+}
+header{
+    background-color: aquamarine;
+    height: 40px;
+}
+#gif{
+    height:50px;
+    width:50px;
+    background-color: rgb(39, 210, 56);
+    border-radius: 50%;
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    margin:3px;
+    display:inline-block;
+}
+#container{
+    border: 5px solid red;
+    margin: 5px;
+}
+#boy{
+    right:50px;
+    bottom:190px;
+    height:100px;
+    width:100px;
+    position: fixed;
+    background-color: bisque;
+}
+.boz{
+    background-color: brown;
+    height:100px;
+    width:100px;
+    margin:5px;
+}
+footer{
+    background-color: aqua;
+    bottom:0px;
+    position: fixed;
+}

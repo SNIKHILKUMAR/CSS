@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>inline-block</title>
+
+    <style>
+        *{
+            margin:0;
+
+        }
+        .box{
+            background-color: rgb(228, 140, 25);
+            margin:5px;
+            height:100px;
+            
+            width:100px;
+            text-align: center;
+
+            border:5px  solid black ;
+            display:inline-block;
+
+        }
+        #b1{
+            font-size:10px;
+            background-color: royalblue;
+            height:200px;
+            width:200px;
+            color:aqua
+          
+
+        }
+        #b2{
+            font-size: 2em;;
+            background-color: brown;
+            height:30%;
+            width:50%;
+            color:aquamarine
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="b1">
+        Parent
+        <div id="b2">Child </div>
+
+    </div>
+</body>
+</html>
